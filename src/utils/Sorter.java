@@ -1,36 +1,4 @@
-package utils;//package utils;
-//
-//import java.util.Arrays;
-//import java.util.Comparator;
-//
-//public class Sorter {
-//    public static Counter analyze(Counter counter) {
-//
-//
-//        char uniqueChar[] = counter.getUniqueChar();
-//        int uniqueCharCount[] = counter.getUniqueCharCount();
-//
-//        Arrays.sort(uniqueCharCount);
-//
-//        for(int i=0; i<uniqueCharCount.length-1; i++){
-//            for(int j=0; j<uniqueCharCount.length-i-1; j++){
-//                if(uniqueCharCount[j]<uniqueCharCount[j+1]){
-//                    int temp=uniqueCharCount[j];
-//                    uniqueCharCount[j]=uniqueCharCount[j+1];
-//                    uniqueCharCount[j+1]=temp;
-//                    char temp_char=uniqueChar[j];
-//                    uniqueChar[j]=uniqueChar[j+1];
-//                    uniqueChar[j+1]=temp_char;
-//                }
-//            }
-//        }
-//
-//
-//        return new Counter(uniqueChar, uniqueCharCount);
-//    }
-//}
-
-
+package utils;
 import java.util.Arrays;
 import java.util.Comparator;
 
